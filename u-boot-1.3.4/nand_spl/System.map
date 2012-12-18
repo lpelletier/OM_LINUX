@@ -1,0 +1,17 @@
+a0000000 t reset
+a0000000 T _start
+a0000038 t init_aipi_start
+a000008c t init_clock_start
+a00000fc t init_sdram_start
+a000010c t nand_boot_setup
+a0000170 t NAND_Copy_Main
+a00001a8 t Nfc_Read_Page
+a00002ac t NAND_Copy_Main_done
+a00002c4 t regular_boot
+a00002d0 t do_wait_op_done
+a00002e8 t do_addr_input
+a0000304 t Test_And_Copy_Buffer
+a0000338 t Copy_Good_Buffer
+a0000358 t Skip_Bad_Buffer
+a0000370 t End_Of_Copy
+a000037c t setup_sdram_ddr

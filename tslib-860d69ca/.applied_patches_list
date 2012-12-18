@@ -1,0 +1,3 @@
+tslib_add_finddef_and_inputattach_utils.patch
+tslib-enable_raw_module.patch
+buildroot-libtool-v2.2.patch

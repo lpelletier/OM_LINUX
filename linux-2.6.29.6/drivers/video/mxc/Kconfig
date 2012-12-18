@@ -1,0 +1,62 @@
+
+config FB_MXC_SYNC_PANEL
+	depends on FB_MXC
+	tristate "Synchronous Panel Framebuffer"
+	default y
+	help
+	  FIXME
+
+#config FB_MXC_TVOUT
+#	tristate "TV Out Encoder"
+#	depends on FB_MXC_SYNC_PANEL
+#	default n
+#	help
+#	  FIXME
+
+config FB_MXC_OVERLAY
+	bool "Framebuffer Overlay Plane"
+	depends on FB_MXC_SYNC_PANEL
+	default n
+	help
+	  FIXME
+
+#config FB_MXC_ASYNC_PANEL
+#	depends on FB_MXC
+#	bool "Asynchronous Panels"
+#	default n
+#	help
+#	  FIXME
+#
+#menu "Asynchronous Panel Type"
+#	depends on FB_MXC_ASYNC_PANEL && FB_MXC
+#
+#config FB_MXC_EPSON_PANEL
+#	depends on FB_MXC_ASYNC_PANEL
+#	default n
+#	bool "Epson 176x220 Panel"
+#	help
+#	  FIXME
+#
+#endmenu
+#
+#choice
+#	prompt "Async Panel Interface Type"
+#	depends on FB_MXC_ASYNC_PANEL && FB_MXC
+#	default FB_MXC_ASYNC_PANEL_IFC_16_BIT
+#
+#config FB_MXC_ASYNC_PANEL_IFC_8_BIT
+#	bool "8-bit Parallel Bus Interface"
+#	help
+#	  FIXME
+#
+#config FB_MXC_ASYNC_PANEL_IFC_16_BIT
+#	bool "16-bit Parallel Bus Interface"
+#	help
+#	  FIXME
+#
+#config FB_MXC_ASYNC_PANEL_IFC_SERIAL
+#	bool "Serial Bus Interface"
+#	help
+#	  FIXME
+#
+#endchoice

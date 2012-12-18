@@ -1,0 +1,90 @@
+utils.o: utils.c ../include/aconfig.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include-fixed/limits.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include-fixed/syslimits.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/limits.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/features.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_config.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_arch_features.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/cdefs.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix1_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/local_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/limits.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_local_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix2_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/xopen_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/stdio_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/stdlib.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include/stddef.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/waitflags.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/waitstatus.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/string.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/wchar.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/stdio.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include/stdarg.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/wchar.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/wctype.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/types.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/wordsize.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/kernel_types.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/typesizes.h \
+ utils.h
+
+../include/aconfig.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include-fixed/limits.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include-fixed/syslimits.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/limits.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/features.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_config.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_arch_features.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/cdefs.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix1_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/local_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/limits.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_local_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix2_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/xopen_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/stdio_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/stdlib.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include/stddef.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/waitflags.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/waitstatus.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/string.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/wchar.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/stdio.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include/stdarg.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/wchar.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/wctype.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/types.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/wordsize.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/kernel_types.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/typesizes.h:
+
+utils.h:

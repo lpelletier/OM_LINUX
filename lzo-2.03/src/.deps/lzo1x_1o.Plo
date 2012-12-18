@@ -1,0 +1,70 @@
+lzo1x_1o.lo: lzo1x_1o.c config1x.h lzo_conf.h ../include/lzo/lzoconf.h \
+ ../config.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include-fixed/limits.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include-fixed/syslimits.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/limits.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/features.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_config.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_arch_features.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/cdefs.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix1_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/local_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/limits.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_local_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix2_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include/stddef.h \
+ ../include/lzo/lzodefs.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/string.h \
+ miniacc.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/assert.h \
+ lzo_ptr.h ../include/lzo/lzo1x.h lzo_dict.h lzo1x_c.ch
+
+config1x.h:
+
+lzo_conf.h:
+
+../include/lzo/lzoconf.h:
+
+../config.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include-fixed/limits.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include-fixed/syslimits.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/limits.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/features.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_config.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_arch_features.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/cdefs.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix1_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/local_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/limits.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_local_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix2_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include/stddef.h:
+
+../include/lzo/lzodefs.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/string.h:
+
+miniacc.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/assert.h:
+
+lzo_ptr.h:
+
+../include/lzo/lzo1x.h:
+
+lzo_dict.h:
+
+lzo1x_c.ch:

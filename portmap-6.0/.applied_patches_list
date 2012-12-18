@@ -1,0 +1,5 @@
+portmap-6.0-0001-README-fix-typo-in-tcp-wrapper-doc.patch
+portmap-6.0-0002-NO_PIE-make-PIE-support-controllable.patch
+portmap-6.0-0003-NO_FORK-control-usage-of-fork-for-nommu-systems.patch
+portmap-6.0-0004-NO_PERROR-control-overriding-of-perror-symbol.patch
+portmap-6.0-tcpd.patch

@@ -1,0 +1,3 @@
+ntp_signd.o: ntp_signd.c ../config.h
+
+../config.h:

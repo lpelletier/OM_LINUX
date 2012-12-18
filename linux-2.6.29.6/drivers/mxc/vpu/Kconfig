@@ -1,0 +1,21 @@
+#
+# Codec configuration
+#
+
+menu "MXC VPU(Video Processing Unit) support"
+
+config MXC_VPU
+	  tristate "Support for MXC VPU(Video Processing Unit)"
+	  depends on MACH_MX27
+	---help---
+	  The VPU codec device provides codec function for H.264/MPEG4/H.263
+
+config MXC_VPU_DEBUG
+	bool "MXC VPU debugging"
+	depends on MXC_VPU
+	help
+	  This is an option for the developers; most people should
+	  say N here.  This enables MXC VPU driver debugging.
+
+endmenu
+

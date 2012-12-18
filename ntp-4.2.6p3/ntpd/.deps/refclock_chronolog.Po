@@ -1,0 +1,399 @@
+refclock_chronolog.o: refclock_chronolog.c ../config.h ../include/ntpd.h \
+ ../include/ntp_syslog.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/syslog.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/syslog.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/features.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_config.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_arch_features.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/cdefs.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include/stdarg.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/stdio.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include/stddef.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/types.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/wordsize.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/kernel_types.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/typesizes.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/pthreadtypes.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sched.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_stdio.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/wchar.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/wchar.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_mutex.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/pthread.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sched.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/time.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/time.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_clk_tck.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/xlocale.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_locale.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/signal.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sigset.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/initspin.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sigthread.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_pthread.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/stdio_lim.h \
+ ../include/ntp_fp.h ../include/ntp_types.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/types.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/endian.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/endian.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/select.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/select.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/sysmacros.h \
+ ../include/ntp_machine.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/time.h \
+ ../include/ntp_proto.h ../include/ntp.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/math.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/huge_val.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/huge_valf.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/huge_vall.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/inf.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/nan.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/mathdef.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/mathcalls.h \
+ ../include/ntp_fp.h ../include/ntp_types.h ../include/ntp_stdlib.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/socket.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/uio.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uio.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/socket.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include-fixed/limits.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include-fixed/syslimits.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/limits.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix1_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/local_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/limits.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_local_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix2_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/xopen_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sockaddr.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm/socket.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm/sockios.h \
+ ../include/l_stdlib.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/stdlib.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/waitflags.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/waitstatus.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alloca.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/termios.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/termios.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/ttydefaults.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/errno.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/errno.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/errno.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm/errno.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm-generic/errno.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm-generic/errno-base.h \
+ ../include/ntp_rfc2553.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/netdb.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/netinet/in.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/stdint.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/in.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/byteswap.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/rpc/netdb.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/siginfo.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/netdb.h \
+ ../lib/isc/unix/include/isc/net.h ../lib/isc/include/isc/platform.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/net/if.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/arpa/inet.h \
+ ../lib/isc/include/isc/lang.h ../lib/isc/include/isc/types.h \
+ ../lib/isc/unix/include/isc/int.h ../lib/isc/unix/include/isc/offset.h \
+ ../lib/isc/include/isc/boolean.h ../lib/isc/include/isc/list.h \
+ ../lib/isc/include/isc/assertions.h ../include/ntp_string.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/memory.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/string.h \
+ ../include/ntp_net.h ../include/ntp_random.h ../include/ntp_net.h \
+ ../include/ntp_debug.h ../include/ntp_select.h ../include/ntp_malloc.h \
+ ../include/ntp_refclock.h ../include/recvbuff.h ../include/ntp_lists.h \
+ ../lib/isc/include/isc/result.h ../include/ntp_io.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/unistd.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix_opt.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/environments.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/confname.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/getopt.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/file.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/fcntl.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/fcntl.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/stat.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/stat.h \
+ ../lib/isc/include/isc/netaddr.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/netinet/in_systm.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/netinet/ip.h \
+ ../include/ntp_refclock.h ../include/ntp_calendar.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/ctype.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_touplow.h
+
+../config.h:
+
+../include/ntpd.h:
+
+../include/ntp_syslog.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/syslog.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/syslog.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/features.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_config.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_arch_features.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/cdefs.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include/stdarg.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/stdio.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include/stddef.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/types.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/wordsize.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/kernel_types.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/typesizes.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/pthreadtypes.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sched.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_stdio.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/wchar.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/wchar.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_mutex.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/pthread.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sched.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/time.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/time.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_clk_tck.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/xlocale.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_locale.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/signal.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sigset.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/initspin.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sigthread.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_pthread.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/stdio_lim.h:
+
+../include/ntp_fp.h:
+
+../include/ntp_types.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/types.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/endian.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/endian.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/select.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/select.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/sysmacros.h:
+
+../include/ntp_machine.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/time.h:
+
+../include/ntp_proto.h:
+
+../include/ntp.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/math.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/huge_val.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/huge_valf.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/huge_vall.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/inf.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/nan.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/mathdef.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/mathcalls.h:
+
+../include/ntp_fp.h:
+
+../include/ntp_types.h:
+
+../include/ntp_stdlib.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/socket.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/uio.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uio.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/socket.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include-fixed/limits.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include-fixed/syslimits.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/limits.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix1_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/local_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/limits.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_local_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix2_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/xopen_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sockaddr.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm/socket.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm/sockios.h:
+
+../include/l_stdlib.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/stdlib.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/waitflags.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/waitstatus.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alloca.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/termios.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/termios.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/ttydefaults.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/errno.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/errno.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/errno.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm/errno.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm-generic/errno.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm-generic/errno-base.h:
+
+../include/ntp_rfc2553.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/netdb.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/netinet/in.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/stdint.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/in.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/byteswap.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/rpc/netdb.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/siginfo.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/netdb.h:
+
+../lib/isc/unix/include/isc/net.h:
+
+../lib/isc/include/isc/platform.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/net/if.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/arpa/inet.h:
+
+../lib/isc/include/isc/lang.h:
+
+../lib/isc/include/isc/types.h:
+
+../lib/isc/unix/include/isc/int.h:
+
+../lib/isc/unix/include/isc/offset.h:
+
+../lib/isc/include/isc/boolean.h:
+
+../lib/isc/include/isc/list.h:
+
+../lib/isc/include/isc/assertions.h:
+
+../include/ntp_string.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/memory.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/string.h:
+
+../include/ntp_net.h:
+
+../include/ntp_random.h:
+
+../include/ntp_net.h:
+
+../include/ntp_debug.h:
+
+../include/ntp_select.h:
+
+../include/ntp_malloc.h:
+
+../include/ntp_refclock.h:
+
+../include/recvbuff.h:
+
+../include/ntp_lists.h:
+
+../lib/isc/include/isc/result.h:
+
+../include/ntp_io.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/unistd.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix_opt.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/environments.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/confname.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/getopt.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/file.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/fcntl.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/fcntl.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/stat.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/stat.h:
+
+../lib/isc/include/isc/netaddr.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/netinet/in_systm.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/netinet/ip.h:
+
+../include/ntp_refclock.h:
+
+../include/ntp_calendar.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/ctype.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_touplow.h:

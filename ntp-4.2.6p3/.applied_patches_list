@@ -1,0 +1,3 @@
+ntp-4.2.6_p2-adjtimex.patch
+ntp-nano.patch
+buildroot-libtool-v1.5.patch

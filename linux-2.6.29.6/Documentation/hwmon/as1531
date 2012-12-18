@@ -1,0 +1,15 @@
+Kernel driver as1531
+====================
+
+Supported chips:
+  * Austriamicrosystems AS1531
+	  Datasheet: http://www.austriamicrosystems.com/eng/Products/Data-Converters/A-D-Converter/AS1531
+
+Author:
+        Fabien Marteau <fabien.marteau@armadeus.com>
+
+Description
+-----------
+
+This driver implements support for the Austriamicrosystems AS1531
+12bits 8channels Analog to Digital Converter.

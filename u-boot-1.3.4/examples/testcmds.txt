@@ -1,0 +1,17 @@
+setenv load_addr 08020000
+setenv test_script 'tftp  $load_addr /tftpboot/u-boot/examples/testcmds.img; auto $load_addr'
+echo ===== test toolsettings ===== 
+setenv test_addr 10040000
+setenv test_len 020000
+setenv test_path /tftpboot/u-boot/u-boot.bin
+setenv load_test 'tftp $load_addr $test_path;'
+setenv install_test 'era $test_addr +$test_len; if cp.b $fileaddr $test_addr $filesize; then echo test update succeed; else echo test update failed; fi'
+
+setenv run_test 'go 10040000'
+
+setenv update_test run load_test install_test 
+run update_test
+echo ===== Save new definitions =====
+setenv load_addr 08000000
+saveenv
+run run_test

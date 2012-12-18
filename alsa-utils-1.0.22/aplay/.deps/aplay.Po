@@ -1,0 +1,362 @@
+aplay.o: aplay.c \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/stdio.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/features.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_config.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_arch_features.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/cdefs.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include/stddef.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/types.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/wordsize.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/kernel_types.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/typesizes.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/pthreadtypes.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sched.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_stdio.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/wchar.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/wchar.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_mutex.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/pthread.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sched.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/time.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/time.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_clk_tck.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/xlocale.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_locale.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/signal.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sigset.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/initspin.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sigthread.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_pthread.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include/stdarg.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/stdio_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/malloc.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/unistd.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix_opt.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/environments.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/confname.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/getopt.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/stdlib.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/waitflags.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/waitstatus.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/endian.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/endian.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/types.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/select.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/select.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/sysmacros.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alloca.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/string.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/getopt.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/fcntl.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/fcntl.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uio.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/stat.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/stat.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/ctype.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_touplow.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/errno.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/errno.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/errno.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm/errno.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm-generic/errno.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm-generic/errno-base.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include-fixed/limits.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include-fixed/syslimits.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/limits.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix1_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/local_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/limits.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_local_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix2_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/xopen_lim.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/locale.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/asoundlib.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/assert.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/poll.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/poll.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/asoundef.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/version.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/global.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/input.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/output.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/error.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/conf.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/pcm.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/rawmidi.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/timer.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/hwdep.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/control.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/mixer.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/seq_event.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/seq.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/seqmid.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/seq_midi_event.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/uio.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/time.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/signal.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/signum.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/siginfo.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sigaction.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sigcontext.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm/sigcontext.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sigstack.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/ucontext.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/ucontext.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/procfs.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/user.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm/byteorder.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/byteorder/little_endian.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/types.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/posix_types.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/stddef.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm/posix_types.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm/types.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm-generic/int-ll64.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/swab.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm/swab.h \
+ ../include/aconfig.h ../include/gettext.h formats.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/byteswap.h \
+ /home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/byteswap.h \
+ ../include/version.h
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/stdio.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/features.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_config.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_arch_features.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/cdefs.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include/stddef.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/types.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/wordsize.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/kernel_types.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/typesizes.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/pthreadtypes.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sched.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_stdio.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/wchar.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/wchar.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_mutex.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/pthread.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sched.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/time.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/time.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_clk_tck.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/xlocale.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_locale.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/signal.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sigset.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/initspin.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sigthread.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_pthread.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include/stdarg.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/stdio_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/malloc.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/unistd.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix_opt.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/environments.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/confname.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/getopt.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/stdlib.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/waitflags.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/waitstatus.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/endian.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/endian.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/types.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/select.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/select.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/sysmacros.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alloca.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/string.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/getopt.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/fcntl.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/fcntl.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uio.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/stat.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/stat.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/ctype.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_touplow.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/errno.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/errno.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/errno.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm/errno.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm-generic/errno.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm-generic/errno-base.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include-fixed/limits.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/bin-ccache/../lib/gcc/arm-unknown-linux-uclibcgnueabi/4.4.5/include-fixed/syslimits.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/limits.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix1_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/local_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/limits.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/uClibc_local_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/posix2_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/xopen_lim.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/locale.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/asoundlib.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/assert.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/poll.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/poll.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/asoundef.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/version.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/global.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/input.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/output.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/error.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/conf.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/pcm.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/rawmidi.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/timer.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/hwdep.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/control.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/mixer.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/seq_event.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/seq.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/seqmid.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/alsa/seq_midi_event.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/uio.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/time.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/signal.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/signum.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/siginfo.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sigaction.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sigcontext.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm/sigcontext.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/sigstack.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/ucontext.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/ucontext.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/procfs.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/sys/user.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm/byteorder.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/byteorder/little_endian.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/types.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/posix_types.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/stddef.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm/posix_types.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm/types.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm-generic/int-ll64.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/linux/swab.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/asm/swab.h:
+
+../include/aconfig.h:
+
+../include/gettext.h:
+
+formats.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/byteswap.h:
+
+/home/leop/Code/armadeus-4.0/buildroot/output/build/staging_dir/usr/include/bits/byteswap.h:
+
+../include/version.h:

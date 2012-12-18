@@ -1,0 +1,13 @@
+# drivers/video/mxc/Kconfig
+
+if ARCH_MXC
+
+menu "MXC support drivers"
+
+#if MACH_MX27
+source "drivers/mxc/vpu/Kconfig"
+#endif
+
+endmenu
+
+endif

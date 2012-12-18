@@ -1,0 +1,51 @@
+menu "IMX Implementations"
+	depends on ARCH_IMX
+
+choice
+    prompt "Development board selection"
+    depends on ARCH_IMX
+
+config ARCH_MX1ADS
+	bool "mx1ads"
+	depends on ARCH_IMX
+	select ISA
+	help
+	  Say Y here if you are using the Motorola MX1ADS board
+
+config MACH_APF9328
+	bool "APF9328"
+	depends on ARCH_IMX
+	help
+	  Say Yes here if you are using the Armadeus APF9328 development board
+
+endchoice
+
+choice
+       prompt "Flash available on board"
+       depends on MACH_APF9328
+       default IMX_APF9328_FLASH_16MB
+
+config IMX_APF9328_FLASH_8MB
+       bool "8MB"
+
+config IMX_APF9328_FLASH_16MB
+       bool "16MB"
+
+endchoice
+
+choice
+        prompt "Baseboard"
+        depends on MACH_APF9328
+        default MACH_APF9328_DEV
+
+config MACH_APF9328_DEV
+        prompt "DevLight/DevFull"
+        bool
+        help
+          This selects the APF9328_DevLight/DevFull as baseboard. You have
+	  to manually activates the devices you want to use if you have a
+	  DevFull.
+
+endchoice
+
+endmenu

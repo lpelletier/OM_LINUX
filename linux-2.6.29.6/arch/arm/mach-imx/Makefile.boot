@@ -1,0 +1,3 @@
+    zreladdr-$(CONFIG_ARCH_MX1ADS)	:= 0x08008000
+    zreladdr-$(CONFIG_MACH_APF9328) := 0x08008000
+

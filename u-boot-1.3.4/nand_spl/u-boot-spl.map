@@ -1,0 +1,55 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00000000                . = 0x0
+                0x00000000                . = ALIGN (0x4)
+
+.text           0xa0000000      0x50c
+ start.o(.text)
+ .text          0xa0000000      0x50c start.o
+                0xa0000000                _start
+ *(.text)
+Address of section .text set to 0xa0000000
+LOAD start.o
+OUTPUT(/home/leop/Code/armadeus-4.0/buildroot/output/build/u-boot-1.3.4/nand_spl/u-boot-spl elf32-littlearm)
+
+.data           0xa000050c        0x0
+ .data          0xa000050c        0x0 start.o
+
+.glue_7         0xa000050c        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0xa000050c        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0xa000050c        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0xa000050c        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.bss            0xa000050c        0x0
+ .bss           0xa000050c        0x0 start.o
+
+.ARM.attributes
+                0x00000000       0x1b
+ .ARM.attributes
+                0x00000000       0x1b start.o
+
+.debug_line     0x00000000       0xbc
+ .debug_line    0x00000000       0xbc start.o
+
+.debug_info     0x00000000       0x8d
+ .debug_info    0x00000000       0x8d start.o
+
+.debug_abbrev   0x00000000       0x14
+ .debug_abbrev  0x00000000       0x14 start.o
+
+.debug_aranges  0x00000000       0x20
+ .debug_aranges
+                0x00000000       0x20 start.o
